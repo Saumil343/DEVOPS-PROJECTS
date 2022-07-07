@@ -81,15 +81,15 @@ For the project we are deploying a Javascript game to the webserver/ec2instance.
 
 9) The Shell Script Used
 - #!/bin/bash
-sudo yum install httpd -y
-sudosystemctlstarthttpd
-sudo cd /var/www/html/ 
-sudo rm -rf test1
-sudo git clone https://github.com/Saumil343/test1.git
-sudo rm -rf /var/www/html/*
-sudo mv test1/* /var/www/html/
-sudo systemctl enable httpd
-sudo systemctl restart httpd
+- sudo yum install httpd -y
+- sudosystemctlstarthttpd
+- sudo cd /var/www/html/ 
+- sudo rm -rf test1
+- sudo git clone https://github.com/Saumil343/test1.git
+- sudo rm -rf /var/www/html/*
+- sudo mv test1/* /var/www/html/
+- sudo systemctl enable httpd
+- sudo systemctl restart httpd
 - ![image](https://user-images.githubusercontent.com/53990452/177820978-95e91f54-944d-4916-9fb4-7c5928864cd5.png)
 
 10) <b> And thus we can see now as soon as we push or change something in our github repo the changes are refled and are hosted over our web server which can be accessed over the public ip of the server in any browser </b>
