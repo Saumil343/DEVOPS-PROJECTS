@@ -3,6 +3,8 @@ Devops Project 1
 
 The project Mainly is about simple ci/cd config with jenkins, which would cd the code from github to aws ec2 instance,
 For the project we are deploying a Javascript game to the webserver/ec2instance.
+<b> Work Flow </b>
+![devops-project-1 drawio (1)](https://user-images.githubusercontent.com/53990452/177825384-4c508e4f-2ce4-4e59-8a04-610c4549dac6.png)
 
 <b> Steps Followed </b>
 
